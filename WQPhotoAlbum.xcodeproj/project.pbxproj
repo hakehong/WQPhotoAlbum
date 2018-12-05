@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93AF1F1921B7B93300E6107F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93AF1F1821B7B93300E6107F /* Info.plist */; };
 		AB4AE26C1DED57D8002E58E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4AE26B1DED57D8002E58E0 /* AppDelegate.swift */; };
 		AB4AE26E1DED57D8002E58E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4AE26D1DED57D8002E58E0 /* ViewController.swift */; };
 		AB4AE2711DED57D8002E58E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4AE26F1DED57D8002E58E0 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		93AF1F1821B7B93300E6107F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB4AE2681DED57D8002E58E0 /* WQPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4AE26B1DED57D8002E58E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB4AE26D1DED57D8002E58E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +94,6 @@
 		AB7093811EBB32A0004682CE /* WQPhotoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQPhotoBaseViewController.swift; sourceTree = "<group>"; };
 		AB7093861EBB32A0004682CE /* WQCachingImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQCachingImageManager.swift; sourceTree = "<group>"; };
 		AB7093871EBB32A0004682CE /* WQExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQExtension.swift; sourceTree = "<group>"; };
-		AB7093B91EBB337B004682CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB7093BA1EBB337B004682CE /* WQPhotoAlbumKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPhotoAlbumKit.h; sourceTree = "<group>"; };
 		AB8408B91F3D52680079448F /* WQPhotoNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQPhotoNavigationViewController.swift; sourceTree = "<group>"; };
 		AB8408BB1F3D52680079448F /* WQPhotoAlbumListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WQPhotoAlbumListViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 		AB70936E1EBB32A0004682CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				93AF1F1821B7B93300E6107F /* Info.plist */,
 				AB70936F1EBB32A0004682CE /* WQPhotoData.swift */,
 			);
 			path = Model;
@@ -218,7 +220,6 @@
 		AB7093B81EBB337B004682CE /* WQPhotoAlbumKit */ = {
 			isa = PBXGroup;
 			children = (
-				AB7093B91EBB337B004682CE /* Info.plist */,
 				AB7093BA1EBB337B004682CE /* WQPhotoAlbumKit.h */,
 			);
 			path = WQPhotoAlbumKit;
@@ -362,6 +363,7 @@
 				AB4AE2761DED57D8002E58E0 /* LaunchScreen.storyboard in Resources */,
 				AB4AE2731DED57D8002E58E0 /* Assets.xcassets in Resources */,
 				AB7093BD1EBB3401004682CE /* Info.plist in Resources */,
+				93AF1F1921B7B93300E6107F /* Info.plist in Resources */,
 				AB4AE2711DED57D8002E58E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

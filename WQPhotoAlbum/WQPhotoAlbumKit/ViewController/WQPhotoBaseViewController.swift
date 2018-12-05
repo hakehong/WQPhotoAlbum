@@ -10,7 +10,7 @@ import UIKit
 
 let WQScreenWidth: CGFloat = UIScreen.main.bounds.size.width
 let WQScreenHeight: CGFloat = UIScreen.main.bounds.size.height
-let WQIsiPhoneX: Bool = UIScreen.instancesRespond(to: #selector(getter: UIScreen.currentMode)) && UIScreen.main.currentMode!.size == CGSize(width: 1125, height: 2436)
+let WQIsiPhoneX: Bool = UIDevice.current.isIphoneXAbove()
 let WQStatusBarHeight: CGFloat = WQIsiPhoneX ? 44 : 20
 let WQNavigationTotalHeight: CGFloat = WQStatusBarHeight + WQNavigationHeight
 let WQHomeBarHeight: CGFloat = WQIsiPhoneX ? 34 : 0

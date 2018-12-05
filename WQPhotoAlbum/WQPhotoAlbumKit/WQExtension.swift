@@ -228,3 +228,18 @@ extension UIButton{
         }
     }
 }
+
+extension UIDevice {
+    func isIphoneXAbove() -> Bool {
+        if #available(iOS 11.0, *) {
+            if ((UIApplication.shared.delegate?.window??.safeAreaInsets.bottom)! > CGFloat(0.0)){
+                return true
+            }else
+            {
+                return false
+            }
+        }else {
+            return false
+        }
+    }
+}
